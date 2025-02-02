@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+      
+    <div class="box">
+      <h2>Add Product</h2>
+      <div place-items: center>
+        <input type="text" id="productNameInput" placeholder="Product Name">
+        <input type="text" id="productDetailsInput" placeholder="Product Details">
+        <input type="text" id="productPriceInput" placeholder="Price">
+        <button id="addProductButton">Add Product</button>
+      </div>
+      <br><br><br>
+    </div>
+  
+    <div class="box2">
+      <h2>Products</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Product Name</th>
+            <th>Product Details</th>
+            <th>Price</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="productTableBody">
+          <!-- Products will be added here -->
+        </tbody>
+      </table>
+    </div>
+
+
+
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
